@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 30px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.header-data {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.row-calc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-calc {
+    flex: 1;
+    padding: 10px;
+}
+
+.value-set {
+    display: flex;
+    align-items: center;
+}
+
+.currency-symbol,
+.numeric-append,
+.i-right,
+.i-year {
+    margin-right: 5px;
+}
+
+.primary-input,
+.secondary-input,
+.numeric-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.slider-input-wrap {
+    margin-top: 10px;
+}
